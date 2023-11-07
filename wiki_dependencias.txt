@@ -1,0 +1,17 @@
+express para el servidor virtual del api
+
+bcrypt-nodejs: para el sifrado del passowrd
+
+body-parser: Parsear json de string a json
+
+connect-multiparty: Subir archivos
+
+mongoose: manejador de mongodb, modelo y controladores
+
+jwt-simple: manejo de json web token
+
+moment: manejo de fechas
+
+nodemon: para reiniciar el servidor automaticamente en ambiente de desarrollo
+
+mongoose-pagination: metodo de paginacion
