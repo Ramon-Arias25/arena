@@ -9,8 +9,8 @@ var uploadAvatar = multiparty({ uploadDir: './uploads/users/avatar' });
 
 // **/api/ruta**
 
-api.get('/home', UserController.Home);
-api.get('/Pruebas', auth.ensureAuth, UserController.pruebas);
+api.get('/user/home', UserController.Home);
+api.get('/user/Pruebas', auth.ensureAuth, UserController.pruebas);
 api.post('/register', UserController.saveUser);
 api.post('/login', UserController.loginUser);
 api.get('/user/:id', auth.ensureAuth, UserController.getUser);

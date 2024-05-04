@@ -8,7 +8,7 @@ var jwt = require('../services/jwt');
 
 
 function Home(req, res) {
-    res.status(200).send({ message: 'Home' });
+    res.status(200).send({ message: 'Home desde user' });
 }
 
 function pruebas(req, res) {

@@ -1,8 +1,9 @@
 var mongoose = require('mongoose');
 var app = require('./app');
+require('dotenv').config();
 
-var uri = 'mongodb+srv://ramonariasbarreto:bBn6AeYq2L7nb4A6@cluster0.kugcbqe.mongodb.net/';
 
+var uri = process.env.MONGODB_URI2;
 //mongoose.Promise - global.Promise;
 mongoose.set('strictQuery', false);
 

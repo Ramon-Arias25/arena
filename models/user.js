@@ -8,7 +8,8 @@ var UserSchema = Schema({
     email: String,
     password: String,
     role: String,
-    image: String
+    image: String,
+    forecasts: [{ type: Schema.Types.ObjectId, ref: 'Forecast' }] // Relación uno a muchos con Pronóstico
 });
 
 module.exports = mongoose.model('User', UserSchema);

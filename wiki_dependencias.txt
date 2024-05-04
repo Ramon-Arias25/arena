@@ -15,3 +15,5 @@ moment: manejo de fechas
 nodemon: para reiniciar el servidor automaticamente en ambiente de desarrollo
 
 mongoose-pagination: metodo de paginacion
+
+dotEnv para veriables de entorno
